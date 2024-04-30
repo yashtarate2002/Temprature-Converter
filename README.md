@@ -19,7 +19,7 @@ This project is a Temperature Converter developed as part of my internship at Oa
 ## Preview
 
 ### Preview Image
-![Temperature Converter Preview](./assets/preview.jpg)
+![Temperature Converter Preview](./assets/preview.png)
 
 ## Usage
 
