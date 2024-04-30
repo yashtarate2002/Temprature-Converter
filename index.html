@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Temperature converter</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@100;300;400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500;1,700&display=swap');
+      </style>
+</head>
+
+<body>
+    <div>
+        <img src="./assets/flower bg.jpg" style="height:500px;margin-left:400px;width:600px;margin-top:100px;">
+    </div>
+    <div class="container">
+        <form id="calcTemp" onsubmit="caltoTemp(); return false">
+            <label for="temp" style="font-family: 'Gloock', serif;font-size:40px;">Temperature Converter</label>
+            <br>
+            <input type="number" name="temp" id="temp">
+            <select name="temp_diff" id="temp_diff">
+                <option value="cel">&#176;Celsius</option>
+                <option value="fah">&#176;Fahrenheit</option>
+            </select>
+            <br>
+            <input type="submit" name="temp" id="submit">
+            <br>
+            <span id="result"></span>
+        </form>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
